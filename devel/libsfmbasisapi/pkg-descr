@@ -1,0 +1,5 @@
+Libsfmbasisapi is an unofficial library for communicating with
+SFM basisapiet. SFM basisapiet is the FHIR service for Norwegian
+eresept (electronic pescriptions).
+
+libbasisapi is a C++23 library with headers and a shared object library.

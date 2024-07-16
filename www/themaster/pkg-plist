@@ -1,0 +1,3 @@
+bin/themaster
+share/applications/TheMaster.desktop
+%%DATADIR%%/TheMasterLogo.png

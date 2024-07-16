@@ -1,0 +1,8 @@
+--- CMakeLists.txt.orig	2023-12-18 21:15:04 UTC
++++ CMakeLists.txt
+@@ -1,4 +1,4 @@
+-cmake_minimum_required(VERSION 3.27)
++cmake_minimum_required(VERSION 3.26)
+ project(libsfmbasisapi)
+ 
+ set(CMAKE_CXX_STANDARD 23)
