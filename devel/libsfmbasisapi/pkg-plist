@@ -25,4 +25,4 @@ include/sfmbasisapi/fhir/value.h
 include/sfmbasisapi/nhnfhir/KjRfErrorCode.h
 lib/libsfmbasisapi.so
 lib/libsfmbasisapi.so.1
-lib/libsfmbasisapi.so.1.0.0
+lib/libsfmbasisapi.so.1.1.0

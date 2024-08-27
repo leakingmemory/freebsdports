@@ -203,5 +203,5 @@ include/medfest/exttype_zip_file.h
 include/medfest/libzip_file.h
 include/medfest/libzip_zip.h
 lib/libmedfest.so
-lib/libmedfest.so.5
-lib/libmedfest.so.5.0.0
+lib/libmedfest.so.7
+lib/libmedfest.so.7.0.0
