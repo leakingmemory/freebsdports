@@ -12,6 +12,7 @@ include/sfmbasisapi/fhir/fhirbasic.h
 include/sfmbasisapi/fhir/fhirconcepts.h
 include/sfmbasisapi/fhir/fhirextendable.h
 include/sfmbasisapi/fhir/fhirobject.h
+include/sfmbasisapi/fhir/fhirpartofchain.h
 include/sfmbasisapi/fhir/medication.h
 include/sfmbasisapi/fhir/medstatement.h
 include/sfmbasisapi/fhir/operationoutcome.h
@@ -24,5 +25,5 @@ include/sfmbasisapi/fhir/substance.h
 include/sfmbasisapi/fhir/value.h
 include/sfmbasisapi/nhnfhir/KjRfErrorCode.h
 lib/libsfmbasisapi.so
-lib/libsfmbasisapi.so.1
-lib/libsfmbasisapi.so.1.1.0
+lib/libsfmbasisapi.so.6
+lib/libsfmbasisapi.so.6.0.0
