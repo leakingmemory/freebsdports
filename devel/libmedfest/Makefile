@@ -1,5 +1,5 @@
 PORTNAME=	libmedfest
-DISTVERSION=	1.0.0
+DISTVERSION=	1.2.0
 CATEGORIES=	devel
 USE_GITHUB=	yes
 GH_ACCOUNT=	leakingmemory

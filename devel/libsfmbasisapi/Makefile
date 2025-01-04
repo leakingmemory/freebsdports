@@ -1,5 +1,5 @@
 PORTNAME=	libsfmbasisapi
-DISTVERSION=	0.1.20
+DISTVERSION=	0.1.22
 CATEGORIES=	devel
 USE_GITHUB=	yes
 GH_ACCOUNT=	leakingmemory

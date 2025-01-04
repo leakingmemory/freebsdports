@@ -25,5 +25,5 @@ include/sfmbasisapi/fhir/substance.h
 include/sfmbasisapi/fhir/value.h
 include/sfmbasisapi/nhnfhir/KjRfErrorCode.h
 lib/libsfmbasisapi.so
-lib/libsfmbasisapi.so.6
-lib/libsfmbasisapi.so.6.0.0
+lib/libsfmbasisapi.so.8
+lib/libsfmbasisapi.so.8.0.0
