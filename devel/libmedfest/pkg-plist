@@ -188,6 +188,7 @@ include/medfest/Struct/Packed/PrisVareList.h
 include/medfest/Struct/Packed/RefRefusjonsvilkarList.h
 include/medfest/Struct/Packed/ReferanseList.h
 include/medfest/Struct/Packed/RefusjonList.h
+include/medfest/Struct/Packed/RefusjonsgruppeList.h
 include/medfest/Struct/Packed/RefusjonskodeList.h
 include/medfest/Struct/Packed/ReseptgyldighetList.h
 include/medfest/Struct/Packed/StringList.h
@@ -203,5 +204,5 @@ include/medfest/exttype_zip_file.h
 include/medfest/libzip_file.h
 include/medfest/libzip_zip.h
 lib/libmedfest.so
-lib/libmedfest.so.10
-lib/libmedfest.so.10.0.0
+lib/libmedfest.so.11
+lib/libmedfest.so.11.0.0
