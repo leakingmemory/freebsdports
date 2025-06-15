@@ -1,0 +1,10 @@
+--- TheMaster.desktop.orig	2025-06-15 06:54:20 UTC
++++ TheMaster.desktop
+@@ -3,6 +3,6 @@ Terminal=false
+ Version=1.0
+ Type=Application
+ Terminal=false
+-Exec=env SSL_CERT_DIR=/etc/ssl/certs SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt GNUTLS_SYSTEM_TRUST_FILE=/etc/ssl/certs/ca-certificates.crt PREFIX/bin/themaster
++Exec=PREFIX/bin/themaster
+ Name=TheMaster
+ Icon=PREFIX/share/themaster/TheMasterLogo.png

@@ -1,5 +1,5 @@
 PORTNAME=	themaster
-DISTVERSION=	0.6.2
+DISTVERSION=	0.16.2
 CATEGORIES=	www
 USE_GITHUB=	yes
 GH_ACCOUNT=	leakingmemory
