@@ -13,6 +13,7 @@ include/sfmbasisapi/fhir/fhirconcepts.h
 include/sfmbasisapi/fhir/fhirextendable.h
 include/sfmbasisapi/fhir/fhirobject.h
 include/sfmbasisapi/fhir/fhirpartofchain.h
+include/sfmbasisapi/fhir/meddispense.h
 include/sfmbasisapi/fhir/medication.h
 include/sfmbasisapi/fhir/medstatement.h
 include/sfmbasisapi/fhir/operationoutcome.h
@@ -24,6 +25,7 @@ include/sfmbasisapi/fhir/practitionerrole.h
 include/sfmbasisapi/fhir/substance.h
 include/sfmbasisapi/fhir/value.h
 include/sfmbasisapi/nhnfhir/KjRfErrorCode.h
+include/sfmbasisapi/nhnfhir/SfmBandaPrescription.h
 lib/libsfmbasisapi.so
-lib/libsfmbasisapi.so.8
-lib/libsfmbasisapi.so.8.0.0
+lib/libsfmbasisapi.so.9
+lib/libsfmbasisapi.so.9.0.0

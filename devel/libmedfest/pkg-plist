@@ -199,10 +199,11 @@ include/medfest/Struct/Packed/Uint16List.h
 include/medfest/Struct/Packed/Uint32List.h
 include/medfest/Struct/Packed/ValueWithCodesetList.h
 include/medfest/Struct/Packed/ValueWithDistinguishedNameList.h
+include/medfest/Struct/Packed/packed.h
 include/medfest/XMLParser.h
 include/medfest/exttype_zip_file.h
 include/medfest/libzip_file.h
 include/medfest/libzip_zip.h
 lib/libmedfest.so
-lib/libmedfest.so.11
-lib/libmedfest.so.11.0.0
+lib/libmedfest.so.13
+lib/libmedfest.so.13.0.0

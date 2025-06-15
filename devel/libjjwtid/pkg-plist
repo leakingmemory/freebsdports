@@ -1,6 +1,7 @@
 include/jjwtid/Base64.h
 include/jjwtid/Bignum.h
 include/jjwtid/Config.h
+include/jjwtid/DpopHost.h
 include/jjwtid/JwkPemRsaKey.h
 include/jjwtid/Jwt.h
 include/jjwtid/JwtPart.h
@@ -14,5 +15,5 @@ include/jjwtid/VerificationKey.h
 include/jjwtid/cpplevel.h
 include/jjwtid/sha2alg.h
 lib/libjjwtid.so
-lib/libjjwtid.so.2
-lib/libjjwtid.so.2.0.0
+lib/libjjwtid.so.3
+lib/libjjwtid.so.3.0.0

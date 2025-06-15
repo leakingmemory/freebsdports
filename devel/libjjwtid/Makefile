@@ -1,5 +1,5 @@
 PORTNAME=	libjjwtid
-DISTVERSION=	0.0.10
+DISTVERSION=	0.1.0
 CATEGORIES=	devel
 USE_GITHUB=	yes
 GH_ACCOUNT=	leakingmemory
@@ -13,6 +13,7 @@ WWW=		https://github.com/leakingmemory/libjjwtid/
 USES=		cmake
 
 BUILD_DEPENDS=	/usr/local/include/nlohmann/json.hpp:devel/nlohmann-json
+LIB_DEPENDS=	libboost_system.so:devel/boost-libs
 
 #USE_GCC=	11
 #CFLAGS+=	-I/usr/local/include

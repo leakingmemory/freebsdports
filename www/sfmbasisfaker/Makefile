@@ -1,5 +1,5 @@
 PORTNAME=	sfmbasisfaker
-DISTVERSION=	0.2.0
+DISTVERSION=	0.4.1
 CATEGORIES=	www
 USE_GITHUB=	yes
 GH_ACCOUNT=	leakingmemory
