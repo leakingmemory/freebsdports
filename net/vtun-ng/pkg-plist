@@ -1,3 +1,4 @@
+etc/vtunngd.conf
 etc/vtunngd.conf.sample
 lib/libvtun_linkfd.so
 sbin/vtunngd
@@ -5,7 +6,6 @@ sbin/vtunngd
 %%PORTDOCS%%%%DOCSDIR%%/Credits
 %%PORTDOCS%%%%DOCSDIR%%/FAQ
 %%PORTDOCS%%%%DOCSDIR%%/README
-%%PORTDOCS%%%%DOCSDIR%%/README.LZO
 %%PORTDOCS%%%%DOCSDIR%%/README.Setup
 %%PORTDOCS%%%%DOCSDIR%%/README.Shaper
 %%PORTDOCS%%%%DOCSDIR%%/TODO

@@ -1,5 +1,5 @@
 PORTNAME=	vtun-ng
-DISTVERSION=	3.0.8
+DISTVERSION=	3.0.9
 CATEGORIES=	net
 USE_GITHUB=	nodefault
 GH_ACCOUNT=	leakingmemory
@@ -31,7 +31,7 @@ ALL_TARGET=	vtund
 CFLAGS+=	-ansi -Wno-pointer-sign
 
 OPTIONS_DEFINE= DOCS
-PORTDOCS=	ChangeLog Credits FAQ README README.LZO README.Setup \
+PORTDOCS=	ChangeLog Credits FAQ README README.Setup \
          	README.Shaper TODO
 
 CARGO_CRATES= \
@@ -57,6 +57,7 @@ CARGO_CRATES= \
 	pkg-config-0.3.32 \
 	proc-macro2-1.0.95 \
 	quote-1.0.40 \
+	rust-lzo-0.6.2 \
 	shlex-1.3.0 \
 	syn-2.0.104 \
 	typenum-1.18.0 \
