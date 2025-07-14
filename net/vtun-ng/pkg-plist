@@ -1,4 +1,3 @@
-etc/vtunngd.conf
 etc/vtunngd.conf.sample
 lib/libvtun_linkfd.so
 sbin/vtunngd

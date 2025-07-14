@@ -1,5 +1,5 @@
 PORTNAME=	vtun-ng
-DISTVERSION=	3.0.6
+DISTVERSION=	3.0.8
 CATEGORIES=	net
 USE_GITHUB=	nodefault
 GH_ACCOUNT=	leakingmemory
@@ -36,11 +36,20 @@ PORTDOCS=	ChangeLog Credits FAQ README README.LZO README.Setup \
 
 CARGO_CRATES= \
 	bitflags-2.9.1 \
+	block-padding-0.3.3 \
+	blowfish-0.9.1 \
+	byteorder-1.5.0 \
 	cc-1.2.29 \
 	cfg-if-1.0.1 \
+	cipher-0.4.4 \
+	crypto-common-0.1.6 \
+	ecb-0.1.2 \
 	foreign-types-0.3.2 \
 	foreign-types-shared-0.1.1 \
+	generic-array-0.14.7 \
+	inout-0.1.4 \
 	libc-0.2.174 \
+	md5-0.8.0 \
 	once_cell-1.21.3 \
 	openssl-0.10.73 \
 	openssl-macros-0.1.1 \
@@ -50,8 +59,10 @@ CARGO_CRATES= \
 	quote-1.0.40 \
 	shlex-1.3.0 \
 	syn-2.0.104 \
+	typenum-1.18.0 \
 	unicode-ident-1.0.18 \
-	vcpkg-0.2.15
+	vcpkg-0.2.15 \
+	version_check-0.9.5
 
 CARGO_CARGOTOML=${WRKSRC}/rust/linkfd/Cargo.toml
 CARGO_BUILD=	no
