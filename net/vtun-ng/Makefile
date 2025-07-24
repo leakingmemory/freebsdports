@@ -1,5 +1,5 @@
 PORTNAME=	vtun-ng
-DISTVERSION=	3.0.12
+DISTVERSION=	3.0.13
 CATEGORIES=	net
 USE_GITHUB=	nodefault
 GH_ACCOUNT=	leakingmemory
