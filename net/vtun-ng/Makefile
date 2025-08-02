@@ -1,5 +1,5 @@
 PORTNAME=	vtun-ng
-DISTVERSION=	3.0.16
+DISTVERSION=	3.0.17
 CATEGORIES=	net
 USE_GITHUB=	nodefault
 GH_ACCOUNT=	leakingmemory
@@ -112,9 +112,9 @@ CARGO_CRATES= \
         windows_x86_64_msvc-0.52.6 \
         windows_x86_64_msvc-0.53.0
 
-#CARGO_CARGOTOML=${WRKSRC}/Cargo.toml
-#CARGO_BUILD=	no
 CARGO_INSTALL=	no
+CARGO_ENV= \
+	VTUN_CONFIG_FILE=/usr/local/etc/vtunngd.conf
 
 do-install:
 	${INSTALL} -d -m 0755 ${STAGEDIR}${PREFIX}${MAN_DIR}/man8
@@ -134,6 +134,7 @@ do-install:
 
 post-install:
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/sbin/vtunngd
+	${INSTALL} -d -m 755 ${STAGEDIR}/var/run/vtunngd
 
 post-install-DOCS-on:
 	${MKDIR} ${STAGEDIR}${DOCSDIR}

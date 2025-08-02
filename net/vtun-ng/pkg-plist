@@ -4,3 +4,4 @@ man8/vtunng.1
 man8/vtunng.8
 man8/vtunngd.8
 sbin/vtunngd
+@dir /var/run/vtunngd
