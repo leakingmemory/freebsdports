@@ -1,17 +1,6 @@
 etc/vtunngd.conf.sample
-lib/libvtun_linkfd.so
+man5/vtunngd.conf.5
+man8/vtunng.1
+man8/vtunng.8
+man8/vtunngd.8
 sbin/vtunngd
-%%PORTDOCS%%%%DOCSDIR%%/ChangeLog
-%%PORTDOCS%%%%DOCSDIR%%/Credits
-%%PORTDOCS%%%%DOCSDIR%%/FAQ
-%%PORTDOCS%%%%DOCSDIR%%/README
-%%PORTDOCS%%%%DOCSDIR%%/README.Setup
-%%PORTDOCS%%%%DOCSDIR%%/README.Shaper
-%%PORTDOCS%%%%DOCSDIR%%/TODO
-share/man/man1/vtunng.1.gz
-share/man/man5/vtunngd.conf.5.gz
-share/man/man8/vtunng.8.gz
-share/man/man8/vtunngd.8.gz
-@dir /var/lock/vtunngd
-@dir /var/lock
-@dir /var/log/vtunngd
