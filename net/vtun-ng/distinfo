@@ -1,6 +1,6 @@
-TIMESTAMP = 1754129389
-SHA256 (vtun-ng-3.0.17.tar.gz) = 9c9b5fca753e9307f2a4e305b104135aac4ed806079a2ba123e53fe538ed671c
-SIZE (vtun-ng-3.0.17.tar.gz) = 82132
+TIMESTAMP = 1754324183
+SHA256 (vtun-ng-3.0.18.tar.gz) = 7d4906884c8b9d632d62e7ffbe50d8d4627010737994a5c5850d6c008041e645
+SIZE (vtun-ng-3.0.18.tar.gz) = 82786
 SHA256 (rust/crates/adler2-2.0.1.crate) = 320119579fcad9c21884f5c4861d16174d0e06250625266f50fe6898340abefa
 SIZE (rust/crates/adler2-2.0.1.crate) = 13366
 SHA256 (rust/crates/beef-0.5.2.crate) = 3a8241f3ebb85c056b509d4327ad0358fbbba6ffb340bf388f26350aeda225b1
