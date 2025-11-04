@@ -2,9 +2,11 @@ include/jjwtid/Base64.h
 include/jjwtid/Bignum.h
 include/jjwtid/Config.h
 include/jjwtid/DpopHost.h
+include/jjwtid/HelseidMultiTenantInfo.h
 include/jjwtid/JwkPemRsaKey.h
 include/jjwtid/Jwt.h
 include/jjwtid/JwtPart.h
+include/jjwtid/OidcClientAssertion.h
 include/jjwtid/OidcTokenRequest.h
 include/jjwtid/Openssl.h
 include/jjwtid/OpensslRsa.h

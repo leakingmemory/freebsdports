@@ -1,5 +1,5 @@
 PORTNAME=	libjjwtid
-DISTVERSION=	0.1.0
+DISTVERSION=	0.2.0
 CATEGORIES=	devel
 USE_GITHUB=	yes
 GH_ACCOUNT=	leakingmemory
@@ -10,10 +10,10 @@ MAINTAINER=	sigsegv@raditoube.org
 COMMENT=	Library for JWTs and signing.
 WWW=		https://github.com/leakingmemory/libjjwtid/
 
-USES=		cmake
+USES=		cmake ssl
 
 BUILD_DEPENDS=	/usr/local/include/nlohmann/json.hpp:devel/nlohmann-json
-LIB_DEPENDS=	libboost_system.so:devel/boost-libs
+LIB_DEPENDS=	libboost_random.so:devel/boost-libs
 
 #USE_GCC=	11
 #CFLAGS+=	-I/usr/local/include
