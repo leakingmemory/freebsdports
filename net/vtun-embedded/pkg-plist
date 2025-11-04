@@ -1,0 +1,20 @@
+etc/rc.d/vtunclient-embedded
+etc/rc.d/vtunemd
+etc/vtunemd.conf
+etc/vtunemd.conf.sample
+sbin/vtunemd
+%%PORTDOCS%%%%DOCSDIR%%/ChangeLog
+%%PORTDOCS%%%%DOCSDIR%%/Credits
+%%PORTDOCS%%%%DOCSDIR%%/FAQ
+%%PORTDOCS%%%%DOCSDIR%%/README
+%%PORTDOCS%%%%DOCSDIR%%/README.LZO
+%%PORTDOCS%%%%DOCSDIR%%/README.Setup
+%%PORTDOCS%%%%DOCSDIR%%/README.Shaper
+%%PORTDOCS%%%%DOCSDIR%%/TODO
+share/man/man1/vtunem.1.gz
+share/man/man5/vtunemd.conf.5.gz
+share/man/man8/vtunem.8.gz
+share/man/man8/vtunemd.8.gz
+@dir /var/lock/vtunemd
+@dir /var/lock
+@dir /var/log/vtunemd

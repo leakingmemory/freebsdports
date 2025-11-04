@@ -1,0 +1,53 @@
+--- Makefile.in.orig	2025-10-21 19:07:34 UTC
++++ Makefile.in
+@@ -29,7 +29,7 @@ INSTALL = @INSTALL@
+ LEXFLAGS = -t 
+ 
+ INSTALL = @INSTALL@
+-INSTALL_OWNER = -o root -g 0
++INSTALL_OWNER = 
+ 
+ prefix = @prefix@
+ exec_prefix = @exec_prefix@
+@@ -57,7 +57,7 @@ CONFIGURE_FILES = Makefile config.status config.cache 
+ 
+ CONFIGURE_FILES = Makefile config.status config.cache config.h config.log 
+ 
+-%.o: %.c vtun.h lib.h
++.c.o:
+ 	$(CC) $(CFLAGS) $(DEFS) -o $@ -c $<
+ 
+ vtunemd: $(OBJS)
+@@ -82,26 +82,26 @@ install_man: 
+ 	rm -f `cat vtun.drivers`	
+ 
+ install_man: 
+-	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(MAN_DIR)/man8
++#	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(MAN_DIR)/man8
+ 	$(INSTALL) -m 644 $(INSTALL_OWNER) vtunemd.8 $(DESTDIR)$(MAN_DIR)/man8
+-	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(MAN_DIR)/man5
++#	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(MAN_DIR)/man5
+ 	$(INSTALL) -m 644 $(INSTALL_OWNER) vtunemd.conf.5 $(DESTDIR)$(MAN_DIR)/man5
+ 	rm -f $(DESTDIR)$(MAN_DIR)/man8/vtunem.8
+ 	ln -s vtunemd.8 $(DESTDIR)$(MAN_DIR)/man8/vtunem.8
+ 
+ install_config: 
+-	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(ETC_DIR)
++#	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(ETC_DIR)
+ 	if [ ! -f $(ETC_DIR)/vtunemd.conf ]; then \
+ 	  $(INSTALL) -m 600 $(INSTALL_OWNER) vtunemd.conf $(DESTDIR)$(ETC_DIR); \
+ 	fi
+ 
+ install: vtunemd install_config install_man
+-	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(VAR_DIR)/run
++#	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(VAR_DIR)/run
+ 	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(STAT_DIR)
+ 	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(LOCK_DIR)
+-	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(SBIN_DIR)
++#	$(INSTALL) -d -m 755 $(INSTALL_OWNER) $(DESTDIR)$(SBIN_DIR)
+ 	$(INSTALL) -m 755 $(INSTALL_OWNER) vtunemd $(DESTDIR)$(SBIN_DIR)
+-	$(BIN_DIR)/strip $(DESTDIR)$(SBIN_DIR)/vtunemd
++	/usr/bin/strip $(DESTDIR)$(SBIN_DIR)/vtunemd
+ 
+ # Test configuration
+ TEST_DIR = tests
