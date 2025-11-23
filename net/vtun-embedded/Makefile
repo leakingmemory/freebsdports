@@ -12,7 +12,7 @@ LICENSE=	GPLv2
 
 LIB_DEPENDS=	liblzo2.so:archivers/lzo2
 
-USES=		autoreconf localbase ssl
+USES=		autoreconf localbase ssl bison
 USE_RC_SUBR=	vtunclient-embedded vtunemd
 GNU_CONFIGURE=	yes
 GNU_CONFIGURE_MANPREFIX=	${PREFIX}/share
