@@ -1,0 +1,3 @@
+bin/cratelist
+%%PORTDOCS%%%%DOCSDIR%%/README.md
+%%PORTDOCS%%%%DOCSDIR%%/SECURITY.md

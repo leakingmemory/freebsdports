@@ -1,5 +1,5 @@
 PORTNAME=	vtun-embedded
-PORTVERSION=	3.0.6
+PORTVERSION=	3.1.0
 CATEGORIES=	net
 MASTER_SITES=	 \
 		https://github.com/leakingmemory/vtun-embedded/releases/download/v${DISTVERSION}/

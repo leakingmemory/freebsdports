@@ -1,0 +1,4 @@
+Cratelist is a tool to create lists of crates for packaging (package manager's tool).
+
+Also dependency license reports, like compiling a file with all dependency licenses.
+
