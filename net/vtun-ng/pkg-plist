@@ -4,4 +4,11 @@ man8/vtunng.1
 man8/vtunng.8
 man8/vtunngd.8
 sbin/vtunngd
+%%PORTDOCS%%%%DOCSDIR%%/ChangeLog
+%%PORTDOCS%%%%DOCSDIR%%/Credits
+%%PORTDOCS%%%%DOCSDIR%%/FAQ
+%%PORTDOCS%%%%DOCSDIR%%/README
+%%PORTDOCS%%%%DOCSDIR%%/README.Setup
+%%PORTDOCS%%%%DOCSDIR%%/README.Shaper
+%%PORTDOCS%%%%DOCSDIR%%/TODO
 @dir /var/run/vtunngd
